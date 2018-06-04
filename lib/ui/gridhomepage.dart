@@ -208,7 +208,8 @@ class _GridHomePageState extends State<GridHomePage> with SingleTickerProviderSt
                         borderRadius: BorderRadius.all(Radius.circular(15.0))),
                   ),
                 ),
-                Center(child: Text(moviesList[int].title , style: TextStyle(color: Colors.white,),maxLines: 2,),),
+                Center(child: Text(moviesList[int].title, overflow: TextOverflow.ellipsis, style: TextStyle(color: Colors.white,
+                fontFamily: 'Montserrat',fontSize: 14.0),),),
               ],
             ),
           );
@@ -224,7 +225,7 @@ class _GridHomePageState extends State<GridHomePage> with SingleTickerProviderSt
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        SizedBox(height: 32.0,),
+        SizedBox(height: 38.0,),
         Padding(
           padding: const EdgeInsets.only(left: 8.0),
           child: Text(_tabindicatorString ,
