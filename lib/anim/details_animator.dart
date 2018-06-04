@@ -22,7 +22,7 @@ class _DetailsAnimatorState extends State<DetailsAnimator> with
   void initState() {
     super.initState();
     _animationController = AnimationController(
-    duration: Duration(seconds: 2)
+    duration: Duration(milliseconds: 1500)
     ,vsync: this);
     _animationController.forward();
   }

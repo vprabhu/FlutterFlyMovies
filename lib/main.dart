@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:movies_flutter/ui/gridhomepage.dart';
-import 'package:movies_flutter/ui/pagetabviews.dart';
-
 
 void main() => runApp(new MyApp());
 
