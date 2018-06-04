@@ -14,3 +14,10 @@ This app demonstrates the following customization in Flutter
 
 @LokiRathod thanks for contributing 
 
+ScreenShots
+ FlutterFlyMovies/screenshots/device-2018-06-04-115500.png
+
+![alt text](https://github.com/vprabhu/FlutterFlyMovies/blob/master/screenshots/device-2018-06-04-115500.png)
+![alt text](https://github.com/vprabhu/FlutterFlyMovies/blob/master/screenshots/device-2018-06-04-115534.png)
+
+
