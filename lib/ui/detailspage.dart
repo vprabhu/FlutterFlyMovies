@@ -27,6 +27,10 @@ class _DetailsPageState extends State<DetailsPage>{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: new AppBar(
+        title: new Text(mUpcomingMovies.title),
+        elevation: 0.0,
+      ),
 
       body:  AnimatedBuilder(
           animation: animation.controller,
@@ -97,12 +101,15 @@ class _DetailsPageState extends State<DetailsPage>{
                           width: 2.5),
                       borderRadius: BorderRadius.circular(40.0),
                     ),
-                    child:Text(
-                      mUpcomingMovies.voteAverage ,
-                      style: TextStyle(
-                        color: Colors.white.withOpacity(animation.nameCurveAnimation.value),
-                        fontSize: 18.0,),
-                      textAlign: TextAlign.center,),
+                    child:new Padding(
+                      padding: const EdgeInsets.only(bottom: 20.0),
+                      child: Text(
+                        mUpcomingMovies.voteAverage ,
+                        style: TextStyle(
+                          color: Colors.white.withOpacity(animation.nameCurveAnimation.value),
+                          fontSize: 15.0,),
+                        textAlign: TextAlign.center,),
+                    ),
                   ),
                 ),
               ],
