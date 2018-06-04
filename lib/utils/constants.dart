@@ -1,5 +1,5 @@
 /// API KEY - for development only
-final String API_KEY = "579b35a10b849df06371216c8d614ce1";
+final String API_KEY = "";
 
 /// base Url for querying the movieDB
 final String BASE_URL = "https://api.themoviedb.org/3/";
@@ -15,3 +15,10 @@ final String NOW_PLAYING = "movie/now_playing";
 
 /// top rated url
 final String TOP_RATED = "movie/top_rated";
+
+// Strings to display the tabs
+final String UPCOMING_TAB_TITLE = "Upcoming";
+final String NOW_PLAYING_TAB_TITLE = "In theatres";
+final String TOP_RATED_TAB_TITLE = "Top Rated";
+
+
