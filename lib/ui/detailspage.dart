@@ -28,7 +28,6 @@ class _DetailsPageState extends State<DetailsPage>{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text(mUpcomingMovies.title),
         elevation: 0.0,
       ),
 
@@ -51,7 +50,7 @@ class _DetailsPageState extends State<DetailsPage>{
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            SizedBox(height: 50.0,),
+            SizedBox(height: 30.0,),
             Hero(
               tag: mUpcomingMovies.title,
               child: Card(

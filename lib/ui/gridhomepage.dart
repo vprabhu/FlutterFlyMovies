@@ -34,28 +34,6 @@ class _GridHomePageState extends State<GridHomePage> with SingleTickerProviderSt
         body: DefaultTabController(
           length: 3,
           child: Scaffold(
-            drawer: Drawer(
-              elevation: 50.0,
-              child: new ListView(
-                padding: EdgeInsets.all(8.0),
-                children: <Widget>[
-                  DrawerHeader(
-                      decoration: BoxDecoration(color: Colors.black54),
-                      child: Column(
-                        children: <Widget>[
-                          Text("Header" , style: TextStyle(color: Colors.white),),
-                          SizedBox(width: 0.0 , height: 10.0,),
-                          CircleAvatar(backgroundImage: NetworkImage("https://cdn-images-1.medium.com/max/1000/1*xC_TLYcq5MO4VGAPgPDqHg.png" ), radius: 36.0,
-                          ),
-                        ],
-                      ) ),
-                  ListTile(title: Text("Movies") , onTap: (){},),
-                  ListTile(title: Text("Tv Shows"), onTap: (){},),
-                  ListTile(title: Text("Watchlist"), onTap: (){},),
-                  ListTile(title: Text("Rate us"), onTap: (){},),
-                ],
-              ),
-            ),
             body: NestedScrollView(
               headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
                 return <Widget>[

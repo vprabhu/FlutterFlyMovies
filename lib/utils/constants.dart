@@ -1,5 +1,5 @@
 /// API KEY - for development only
-final String API_KEY = "";
+final String API_KEY = "579b35a10b849df06371216c8d614ce1";
 
 /// base Url for querying the movieDB
 final String BASE_URL = "https://api.themoviedb.org/3/";

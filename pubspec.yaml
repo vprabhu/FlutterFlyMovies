@@ -46,7 +46,7 @@ flutter:
         - asset: fonts/RobotoCondensed-Bold.ttf
     - family: Montserrat
       fonts:
-        - asset: fonts/Montserrat-SemiBold.ttf
+        - asset: fonts/Montserrat-Regular.ttf
     - family: BowlbyOneSC
       fonts:
         - asset: fonts/BowlbyOneSC-Regular.ttf
